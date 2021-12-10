@@ -25,6 +25,8 @@ body {
   padding: 1rem;
 }
 
+/* SECTION OVERLAY */
+
 .section-overlay {
   border-radius: 0.8rem;
   overflow: hidden;
@@ -42,6 +44,33 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+/* SECTION EQUILIBRIUM */
+
+.section-equilibrium {
+  margin: 1.4rem 0;
+}
+
+/* SECTION DETAILS */
+
+.section-details {
+  margin-bottom: 1.4rem;
+}
+
+/* SECTION CREATOR */
+
+.section-creator {
+  margin: 1.4rem 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.section-creator img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: 0.15rem solid #fff;
 }
 
 /* ATTRIBUTION */
