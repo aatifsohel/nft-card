@@ -6,25 +6,23 @@
 
 body {
   font-family: "Outfit", sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.12rem;
   font-weight: 300;
   color: hsl(215, 51%, 70%);
 }
 
 .container {
-  max-height: 100vh;
-  max-width: 100vw;
+  min-height: 100vh;
   background-color: antiquewhite;
   display: grid;
   place-content: center;
 }
 
 .card {
-  max-width: 16.5rem;
-  max-height: 33.5rem;
+  max-width: 22rem;
   background-color: pink;
   border-radius: 0.8rem;
-  padding: 1rem;
+  padding: 1.3rem;
 }
 
 /* SECTION OVERLAY */
@@ -74,6 +72,13 @@ body {
   align-items: center;
   padding-bottom: 1.4rem;
   border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.eth-value, .time-left {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
 }
 
 .eth-value span {
