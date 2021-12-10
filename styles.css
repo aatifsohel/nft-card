@@ -13,14 +13,14 @@ body {
 
 .container {
   min-height: 100vh;
-  background-color: antiquewhite;
+  background-color: hsl(217, 54%, 11%);
   display: grid;
   place-content: center;
 }
 
 .card {
   max-width: 22rem;
-  background-color: pink;
+  background-color: hsl(216, 50%, 16%);
   border-radius: 0.8rem;
   padding: 1.3rem;
 }
@@ -93,19 +93,19 @@ body {
   border-bottom: 1px solid hsl(215, 32%, 27%);
 }
 
-.eth-value, .time-left {
+.eth-value,
+.time-left {
   display: flex;
   gap: 0.5rem;
   align-items: center;
 }
-}
 
 .eth-value span {
   color: hsl(178, 100%, 50%);
-  font-weight: 400;
 }
 
-.time-left span {
+.time-left span,
+.eth-value span {
   font-weight: 400;
 }
 
