@@ -7,6 +7,8 @@
 body {
   font-family: "Outfit", sans-serif;
   font-size: 1.2rem;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
 }
 
 .container {
@@ -52,6 +54,17 @@ body {
   margin: 1.4rem 0;
 }
 
+.title {
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 600;
+}
+
+.title:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
 /* SECTION DETAILS */
 
 .section-details {
@@ -59,6 +72,15 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.eth-value span {
+  color: hsl(178, 100%, 50%);
+  font-weight: 400;
+}
+
+.time-left span {
+  font-weight: 400;
 }
 
 /* SECTION CREATOR */
@@ -74,6 +96,15 @@ body {
   height: 3rem;
   border-radius: 50%;
   border: 0.15rem solid #fff;
+}
+
+.writer {
+  color: #fff;
+}
+
+.writer:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
 }
 
 /* ATTRIBUTION */
