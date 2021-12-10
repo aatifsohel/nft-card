@@ -20,6 +20,9 @@ body {
 .card {
   max-width: 16.5rem;
   max-height: 33.5rem;
+  background-color: pink;
+  border-radius: 0.8rem;
+  padding: 1rem;
 }
 
 .section-overlay {
